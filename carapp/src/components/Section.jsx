@@ -3,17 +3,16 @@ import styled from 'styled-components'
 
 const Section = () => {
   return (
-     <wrap>
+     <Container>
         Section
-    </wrap>
+    </Container>
   )
 }
 
 export default Section
 
-const wrap = styled.div`
+const Container = styled.div`
 width: 100vh;
 height: 100vh;
-background-color: red;
-background-image: url('/images/model-s.jpg);
+background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
 `;
