@@ -1,0 +1,11 @@
+body {
+ box-sizing: border-box;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: pink;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  width: 1024;
+}
