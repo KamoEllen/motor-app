@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Section2 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
-    <Container bgImage={backgroundImg}>
+ <Container bgImage={backgroundImg}>
     <Fade bottom>
     <ItemText>
       <h1>{title}</h1>
@@ -26,6 +26,26 @@ const Section2 = ({title , description , leftBtnText , righBtnText ,  background
       </Fade>
       </Buttons>
 </Container>
+
+     <Container bgImage={backgroundImg}>
+        
+        <ItemText>
+          <h1>{title}</h1>
+          <p>{description}</p>
+        </ItemText>
+        <Buttons>
+        <ButtonGroup>
+          <LeftButton>
+            {leftBtnText}
+          </LeftButton>
+          <RightButton>
+            {righBtnText}
+          </RightButton>
+        </ButtonGroup>
+        
+          <DownArrow src="images/down-arrow.svg"/>
+          </Buttons>
+    </Container>
   )
 }
 
@@ -33,6 +53,8 @@ export default Section2
 
 const Container = styled.div`
 width: cover;
+
+width: 100vh;
 height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
@@ -99,5 +121,6 @@ const Buttons = styled.div`
 
 `;
 const Fade = styled.div``;
+
 
 

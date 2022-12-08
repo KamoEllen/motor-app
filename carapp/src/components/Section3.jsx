@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Section3 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
-    <Container bgImage={backgroundImg}>
+ <Container bgImage={backgroundImg}>
     <Fade bottom>
     <ItemText>
       <h1>{title}</h1>
@@ -26,6 +26,7 @@ const Section3 = ({title , description , leftBtnText , righBtnText ,  background
       </Fade>
       </Buttons>
 </Container>
+
   )
 }
 
@@ -33,6 +34,7 @@ export default Section3
 
 const Container = styled.div`
 width: cover;
+
 height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
@@ -100,5 +102,4 @@ const Buttons = styled.div`
 `;
 
 const Fade = styled.div``;
-
 
