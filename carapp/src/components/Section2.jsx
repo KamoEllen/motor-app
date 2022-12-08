@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Section = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
+const Section2 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
      <Container bgImage={backgroundImg}>
@@ -26,19 +26,19 @@ const Section = ({title , description , leftBtnText , righBtnText ,  backgroundI
   )
 }
 
-export default Section
+export default Section2
 
 const Container = styled.div`
 width: 100vh;
 height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
-background-image: url('https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e978cec113659.jpg');
+background-image: url('https://i.pinimg.com/564x/33/37/66/333766e60b051d483977d18234df2fd8.jpg');
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-background-image: url('https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e978cec113659.jpg');
+background-image: url('https://i.pinimg.com/564x/33/37/66/333766e60b051d483977d18234df2fd8.jpg')
 
 `;
 
