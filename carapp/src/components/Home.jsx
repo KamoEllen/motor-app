@@ -16,7 +16,10 @@ const Home = () => {
         leftBtnText="Custom Order"
         righBtnText="Existing Inventory"
         />
+       <Section1
+
       <Section1
+
        title="Model A" 
        description=" Order Online For Touchless Delivery"
        backgroundImg="https://i.pinimg.com/564x/d2/8b/88/d28b88df0fe3f44c02d7db154358027c.jpg"
@@ -107,6 +110,7 @@ const Home = () => {
         />
   */}
    
+
     </Container>
   )
 }
