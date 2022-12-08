@@ -9,6 +9,9 @@ const Home = () => {
         title="Model K" 
         description=" Order Online For Touchless Delivery"
         backgroundImg="https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e978cec113659.jpg"
+
+        backgroundImg="link to image"
+
         leftBtnText="Custom Order"
         righBtnText="Existing Inventory"
         />
@@ -23,6 +26,14 @@ const Home = () => {
         />
         <Section
         https://i.pinimg.com/564x/c1/56/1b/c1561b2ecc93c786270d2612f1c5613f.jpg
+
+        />
+        <Section
+        />
+        <Section
+        />
+        <Section
+
         />
   */}
       
