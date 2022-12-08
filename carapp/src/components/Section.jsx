@@ -21,6 +21,7 @@ const Section = ({title , description , leftBtnText , righBtnText}) => {
         </ButtonGroup>
           <DownArrow src="images/down-arrow.svg"/>
           </Buttons>
+
     </Container>
   )
 }
@@ -30,6 +31,7 @@ export default Section
 const Container = styled.div`
 width: 100vh;
 height: 100vh;
+
 background-size: cover;
 background-repeat: not-repeat;
 background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
@@ -93,4 +95,7 @@ animation: animateDown infinite 1.5s;
 
 const Buttons = styled.div`
 
+`;
+
+background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
 `;
