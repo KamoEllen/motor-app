@@ -30,25 +30,6 @@ const Section2 = ({title , description , leftBtnText , righBtnText ,  background
       </Fade>
       </Buttons>
 </Container>
-     <Container bgImage={backgroundImg}>
-        
-        <ItemText>
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </ItemText>
-        <Buttons>
-        <ButtonGroup>
-          <LeftButton>
-            {leftBtnText}
-          </LeftButton>
-          <RightButton>
-            {righBtnText}
-          </RightButton>
-        </ButtonGroup>
-        
-          <DownArrow src="images/down-arrow.svg"/>
-          </Buttons>
-    </Container>
 
   )
 }
@@ -57,10 +38,7 @@ export default Section2
 
 const Container = styled.div`
 width: cover;
-
 width: 100vh;
-
-height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
 background-image: url('https://i.pinimg.com/564x/33/37/66/333766e60b051d483977d18234df2fd8.jpg');
