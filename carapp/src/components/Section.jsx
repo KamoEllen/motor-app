@@ -5,7 +5,14 @@ const Section = ({title , description , leftBtnText , righBtnText ,  backgroundI
   
   return (
      <Container bgImage={backgroundImg}>
-        
+
+const Section = ({title , description , leftBtnText , righBtnText}) => {
+  
+  return (
+     <Container>
+       Section
+
+
         <ItemText>
           <h1>{title}</h1>
           <p>{description}</p>
@@ -22,6 +29,9 @@ const Section = ({title , description , leftBtnText , righBtnText ,  backgroundI
         
           <DownArrow src="images/down-arrow.svg"/>
           </Buttons>
+          <DownArrow src="images/down-arrow.svg"/>
+          </Buttons>
+
     </Container>
   )
 }
@@ -34,6 +44,17 @@ height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
 background-image: url('https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e978cec113659.jpg');
+
+background-image: url('/images/model-s.jpg');
+
+
+background-size: cover;
+background-repeat: not-repeat;
+background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
+
+
+
+
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -94,6 +115,14 @@ animation: animateDown infinite 1.5s;
 
 const Buttons = styled.div`
 
+`;
+
+
+`;
+
+`;
+
+background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
 `;
 
 
