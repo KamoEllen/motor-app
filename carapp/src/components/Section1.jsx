@@ -7,9 +7,6 @@ const Section1 = ({title , description , leftBtnText , righBtnText ,  background
   
   return (
     <Container bgImage={backgroundImg}>
-
-  <Container bgImage={backgroundImg}>
-
     <Fade bottom>
     <ItemText>
       <h1>{title}</h1>
@@ -31,28 +28,6 @@ const Section1 = ({title , description , leftBtnText , righBtnText ,  background
       </Fade>
       </Buttons>
 </Container>
-
-     <Container bgImage={backgroundImg}>
-        
-        <ItemText>
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </ItemText>
-        <Buttons>
-        <ButtonGroup>
-          <LeftButton>
-            {leftBtnText}
-          </LeftButton>
-          <RightButton>
-            {righBtnText}
-          </RightButton>
-        </ButtonGroup>
-        
-          <DownArrow src="images/down-arrow.svg"/>
-          </Buttons>
-    </Container>
-
-
   )
 }
 
