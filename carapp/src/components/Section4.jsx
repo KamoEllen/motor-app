@@ -1,47 +1,47 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Section = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
+const Section4 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
-     <Container bgImage={backgroundImg}>
-        <Fade bottom>
-        <ItemText>
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </ItemText>
-        </Fade>
-        <Buttons>
-          <Fade bottom>
-        <ButtonGroup>
-          <LeftButton>
-            {leftBtnText}
-          </LeftButton>
-          <RightButton>
-            {righBtnText}
-          </RightButton>
-        </ButtonGroup>
-        
-          <DownArrow src="images/down-arrow.svg"/>
-          </Fade>
-          </Buttons>
-    </Container>
+    <Container bgImage={backgroundImg}>
+    <Fade bottom>
+    <ItemText>
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </ItemText>
+    </Fade>
+    <Buttons>
+      <Fade bottom>
+    <ButtonGroup>
+      <LeftButton>
+        {leftBtnText}
+      </LeftButton>
+      <RightButton>
+        {righBtnText}
+      </RightButton>
+    </ButtonGroup>
+    
+      <DownArrow src="images/down-arrow.svg"/>
+      </Fade>
+      </Buttons>
+</Container>
   )
 }
 
-export default Section
+export default Section4
 
 const Container = styled.div`
 width: cover;
 height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
-background-image: url('https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e978cec113659.jpg');
+background-image: url('https://i.pinimg.com/564x/c1/56/1b/c1561b2ecc93c786270d2612f1c5613f.jpg');
 display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-background-image: url('https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e978cec113659.jpg');
+background-image: url('https://i.pinimg.com/564x/c1/56/1b/c1561b2ecc93c786270d2612f1c5613f.jpg')
 
 `;
 
@@ -100,5 +100,3 @@ const Buttons = styled.div`
 `;
 
 const Fade = styled.div``;
-
-
