@@ -97,5 +97,7 @@ const Buttons = styled.div`
 
 `;
 
+`;
+
 background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
 `;
