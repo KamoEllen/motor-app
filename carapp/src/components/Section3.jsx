@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade'
 const Section3 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
-    <Container bgImage={backgroundImg}>
+   
 
  <Container bgImage={backgroundImg}>
 
