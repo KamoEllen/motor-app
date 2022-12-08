@@ -12,7 +12,6 @@ const Section = ({title , description , leftBtnText , righBtnText}) => {
      <Container>
        Section
 
-
         <ItemText>
           <h1>{title}</h1>
           <p>{description}</p>
@@ -55,6 +54,7 @@ background-repeat: not-repeat;
 background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
 
 
+
 display: flex;
 flex-direction: column;
 justify-content: space-between;
@@ -63,6 +63,7 @@ background-image: url('https://i.pinimg.com/564x/78/42/67/78426767e2cc56cf006e97
 
 
 background-image: ${props => `url("/images/${props.bgImage}")`}
+
 
 
 `;
