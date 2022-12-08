@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
+
 
 const Section4 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
-   <Container bgImage={backgroundImg}>
+ <Container bgImage={backgroundImg}>
+
+
+
     <Fade bottom>
     <ItemText>
       <h1>{title}</h1>
@@ -26,7 +31,6 @@ const Section4 = ({title , description , leftBtnText , righBtnText ,  background
       </Fade>
       </Buttons>
 </Container>
-
      <Container bgImage={backgroundImg}>
        
         <ItemText>
@@ -55,6 +59,7 @@ export default Section4
 const Container = styled.div`
 width: cover;
 width: 100vh;
+
 height: 100vh;
 background-size: cover;
 background-repeat: not-repeat;
@@ -120,5 +125,6 @@ animation: animateDown infinite 1.5s;
 const Buttons = styled.div`
 
 `;
+
 
 const Fade = styled.div``;

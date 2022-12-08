@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
+
 
 const Section3 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
+    <Container bgImage={backgroundImg}>
+
  <Container bgImage={backgroundImg}>
+
     <Fade bottom>
     <ItemText>
       <h1>{title}</h1>
@@ -26,7 +31,6 @@ const Section3 = ({title , description , leftBtnText , righBtnText ,  background
       </Fade>
       </Buttons>
 </Container>
-
   )
 }
 
@@ -100,6 +104,7 @@ animation: animateDown infinite 1.5s;
 const Buttons = styled.div`
 
 `;
+
 
 const Fade = styled.div``;
 

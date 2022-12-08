@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade'
+
 
 const Section1 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
+    <Container bgImage={backgroundImg}>
+
   <Container bgImage={backgroundImg}>
+
     <Fade bottom>
     <ItemText>
       <h1>{title}</h1>
@@ -46,6 +51,7 @@ const Section1 = ({title , description , leftBtnText , righBtnText ,  background
           <DownArrow src="images/down-arrow.svg"/>
           </Buttons>
     </Container>
+
 
   )
 }
@@ -123,5 +129,7 @@ const Buttons = styled.div`
 
 `;
 
+
 const Fade = styled.div``;
+
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-
 const Header = () => {
   return (
     <Container>
@@ -11,7 +10,10 @@ const Header = () => {
         <img src="/images/logo.svg" alt=""/>
       </a>
       <Menu>
+       <a href="#">Model K</a>
+
       <a href="#">Model K</a>
+
        <a href="#">Model A</a>
        <a href="#">Model M</a>
        <a href="#">Model O</a>
@@ -22,6 +24,7 @@ const Header = () => {
       <a href="#">Tesla Account</a>
       <CustomMenu/>
       </RightMenu>
+
        <p><a href="#">Model K</a></p>
        <p><a href="#">Model A</a></p>
        <p><a href="#">Model M</a></p>
@@ -41,6 +44,7 @@ position: fixed;
 display: flex;
 align-items: center;
 justify-content: space-between;
+
 padding: 0 20px;
 top: 0;
 left: 0;
@@ -57,6 +61,7 @@ flex: 1;
 a{
 
 p{
+
   font-weight: 600;
   text-transform: uppercase;
   padding: 0 10px;
@@ -93,3 +98,4 @@ p{
 const Container = styled.div``;
 
 const Menu = styled.div``;
+

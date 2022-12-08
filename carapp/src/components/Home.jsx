@@ -110,7 +110,6 @@ const Home = () => {
   */}
    
 
-
     </Container>
   )
 }
