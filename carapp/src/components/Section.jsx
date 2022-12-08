@@ -1,11 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 
+const Section = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
+  
+  return (
+     <Container bgImage={backgroundImg}>
+
 const Section = ({title , description , leftBtnText , righBtnText}) => {
   
   return (
      <Container>
-        Section
+       Section
         <ItemText>
           <h1>{title}</h1>
           <p>{description}</p>
@@ -19,6 +24,10 @@ const Section = ({title , description , leftBtnText , righBtnText}) => {
             {righBtnText}
           </RightButton>
         </ButtonGroup>
+        
+          <DownArrow src="images/down-arrow.svg"/>
+          </Buttons>
+
           <DownArrow src="images/down-arrow.svg"/>
           </Buttons>
 
@@ -31,6 +40,10 @@ export default Section
 const Container = styled.div`
 width: 100vh;
 height: 100vh;
+background-size: cover;
+background-repeat: not-repeat;
+background-image: url('/images/model-s.jpg');
+
 
 background-size: cover;
 background-repeat: not-repeat;
@@ -39,7 +52,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 align-items: center;
-
+background-image: ${props => `url("/images/${props.bgImage}")`}
 
 `;
 
@@ -97,10 +110,12 @@ const Buttons = styled.div`
 
 `;
 
+
 `;
 
 `;
 
 background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
 `;
+
 
