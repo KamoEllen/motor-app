@@ -6,33 +6,10 @@ const Section = ({title , description , leftBtnText , righBtnText ,  backgroundI
   
   return (
      <Container bgImage={backgroundImg}>
-       <Fade bottom>
-
-       <Fade bottom>
-
-
-const Section = ({title , description , leftBtnText , righBtnText}) => {
-  
-  return (
-     <Container>
-       Section
-
-
-        <ItemText>
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </ItemText>
-        </Fade>
         <Buttons>
           <Fade bottom>
-
- </Fade>
-        <Buttons>
-          <Fade bottom>
-
-        <Buttons>
-
-        <ButtonGroup>
+            <Buttons>
+            <ButtonGroup>
           <LeftButton>
             {leftBtnText}
           </LeftButton>
@@ -44,14 +21,7 @@ const Section = ({title , description , leftBtnText , righBtnText}) => {
           <DownArrow src="images/down-arrow.svg"/>
           </Fade>
           </Buttons>
-
-
-          </Buttons>
-          <DownArrow src="images/down-arrow.svg"/>
-          </Buttons>
-
-
-    </Container>
+        </Container>
   )
 }
 
@@ -138,12 +108,8 @@ const Buttons = styled.div`
 
 const Fade = styled.div``;
 
-
 `;
 
-`;
 
-background-image: url("https://i.pinimg.com/564x/1a/fc/d9/1afcd9016d3fbc12c45115348b15c75d.jpg");
-`;
 
 
