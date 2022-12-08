@@ -9,6 +9,7 @@ import Section4 from './Section4'
 const Home = () => {
   return (
     <Container>
+
         <Section 
         title="Model K" 
         description=" Order Online For Touchless Delivery"

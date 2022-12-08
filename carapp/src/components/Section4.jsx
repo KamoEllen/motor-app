@@ -4,6 +4,29 @@ import styled from 'styled-components'
 const Section4 = ({title , description , leftBtnText , righBtnText ,  backgroundImg}) => {
   
   return (
+   <Container bgImage={backgroundImg}>
+    <Fade bottom>
+    <ItemText>
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </ItemText>
+    </Fade>
+    <Buttons>
+      <Fade bottom>
+    <ButtonGroup>
+      <LeftButton>
+        {leftBtnText}
+      </LeftButton>
+      <RightButton>
+        {righBtnText}
+      </RightButton>
+    </ButtonGroup>
+    
+      <DownArrow src="images/down-arrow.svg"/>
+      </Fade>
+      </Buttons>
+</Container>
+
      <Container bgImage={backgroundImg}>
        
         <ItemText>
@@ -23,12 +46,14 @@ const Section4 = ({title , description , leftBtnText , righBtnText ,  background
           <DownArrow src="images/down-arrow.svg"/>
           </Buttons>
     </Container>
+
   )
 }
 
 export default Section4
 
 const Container = styled.div`
+width: cover;
 width: 100vh;
 height: 100vh;
 background-size: cover;
@@ -96,4 +121,4 @@ const Buttons = styled.div`
 
 `;
 
-
+const Fade = styled.div``;
